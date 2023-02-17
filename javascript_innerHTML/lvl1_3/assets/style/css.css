@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gallery {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#gallery figcaption {
+    text-align: center;
+    color: red;
+}
+
+#gallery img {
+    border-radius: 20px;
+}
+
+#gallery img:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
